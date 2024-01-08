@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.main > p{
+    font-size: 18pt;
+    font-weight: bold;
+    width: 100%;
+    margin: 30px 0;
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+}
+
+.mirror{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mirror img{
+    width: 50%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price{
+    width: 100%;
+    box-shadow: 0px 0px 5px 1px rgb(190, 190, 190);
+}
+
+.price p{
+    padding: 30px 10px;
+    font-size: 16pt;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+
+.basket{
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.basket .quan{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #fafafa;;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14pt;
+    align-items: center;
+    justify-content: center;
+}
+
+.basket .one, .basket .two{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 5px 1px rgb(190, 190, 190);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16pt;
+}
+
+.basket_btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #749828;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+.delivery{    
+    width: 100%;
+    background-color: #fafafa;;    
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.delivery > p{
+    font-size: 16pt;
+    color: #749828;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.delivery .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row_one{
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.row_two{
+    font-size: 14pt;
+    color: grey;
+}
+
+#intro{
+    background: url(https://media.obi.ru/resize/710x710/media/catalog/product/5/0/5006915_2_d5df.jpg?store=moscow&image-type=large) no-repeat fixed;
+    /* background-size: cover; */
+    height: 200vh;
+    width: 70%;
+    margin: auto;  
+}
+
+#third{
+    background: url(https://media.obi.ru/resize/710x710/media/catalog/product/5/0/5006915_3_e03a.jpg?store=moscow&image-type=large) no-repeat fixed;
+    /* background-size: cover; */
+    height: 200vh;
+    width: 70%;
+    margin: auto;  
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.photo p{
+    font-size: 16pt;
+    font-weight: bold;
+    margin: auto;
+}
